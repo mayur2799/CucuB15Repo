@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Com.radical.basic.datadrivenSD.RunDataDrivenTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.779 sec

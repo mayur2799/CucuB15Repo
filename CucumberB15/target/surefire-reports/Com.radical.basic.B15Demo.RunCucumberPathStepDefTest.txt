@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Com.radical.basic.B15Demo.RunCucumberPathStepDefTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.938 sec

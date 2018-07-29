@@ -1,0 +1,194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8576818141,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "validate fb login Scenario1",
+        "description": "",
+        "id": "facebook2-login-validation-with-parameter;validate-fb-login-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 190055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7485692701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on facebook login Page",
+            "match": {
+              "location": "MultiScenarioStepDefs.the_user_is_on_facebook_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288480390,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he enters \"user\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5219198283,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "he enters \"pwd\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pwd",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 628492268,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "MultiScenarioStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8475478704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "validate fb login Scenario2",
+        "description": "",
+        "id": "facebook2-login-validation-with-parameter;validate-fb-login-scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 452024,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MultiScenarioStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6086546725,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d67.0.3396.99)\n  (Driver info: chromedriver\u003d2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.5.2\u0027, revision: \u002710229a9\u0027, time: \u00272017-08-21T17:29:55.15Z\u0027\nSystem info: host: \u0027DESKTOP-H682QBM\u0027, ip: \u0027192.168.1.116\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{mobileEmulationEnabled\u003dfalse, hasTouchScreen\u003dfalse, platform\u003dXP, acceptSslCerts\u003dfalse, acceptInsecureCerts\u003dfalse, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, setWindowRect\u003dtrue, unexpectedAlertBehaviour\u003d, applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9), userDataDir\u003dC:\\Users\\Mayur\\AppData\\Local\\Temp\\scoped_dir1144_8357}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003d, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, version\u003d67.0.3396.99, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, locationContextEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: e75b0827aed510c698cfde2dee956af5\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:368)\r\n\tat Com.radical.basic.multipleScenarioInSingleFile.MultiScenarioStepDefs.the_user_is_on_facebook_login_Page(MultiScenarioStepDefs.java:34)\r\n\tat ✽.Given the user is on facebook login Page(MultiScenario.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "the user is on facebook login Page",
+            "match": {
+              "location": "MultiScenarioStepDefs.the_user_is_on_facebook_login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "he enters \"user\" as user name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "he enters \"pwd\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pwd",
+                  "offset": 11
+                }
+              ],
+              "location": "MultiScenarioStepDefs.He_enters_user_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "check username is present in textbox",
+            "match": {
+              "location": "MultiScenarioStepDefs.check_username_is_present_in_textbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook2 login validation with parameter",
+    "description": "As a fb user, I want to enter username and pwd as a parameter",
+    "id": "facebook2-login-validation-with-parameter",
+    "keyword": "Feature",
+    "uri": "MultiScenario.feature"
+  }
+]
